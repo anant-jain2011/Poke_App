@@ -10,13 +10,29 @@
 </head>
 
 <body>
-    <!-- <input type= "text" placeholder="Enter Pokemon's Name :)"> -->
-    <div class="container"> 
-        <span id="pname"> ... </span>
-        <!-- <span id="poke_index">h</span>  -->
-        <hr color="blue" size="10%" width="100%">
-        <img src="" alt="" class="photo" id="image">
-    </div>
+    <center>
+        <!-- <input type= "text" placeholder="Enter Pokemon's Name :)"> -->
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+            <div id="myDropdown" class="dropdown-content">
+                <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+                <a href="#about">About</a>
+                <a href="#base">Base</a>
+                <a href="#blog">Blog</a>
+                <a href="#contact">Contact</a>
+                <a href="#custom">Custom</a>
+                <a href="#support">Support</a>
+                <a href="#tools">Tools</a>
+            </div>
+        </div>
+        <br><br>
+        <div class="container">
+            <span id="pname"> ... </span>
+            <!-- <span id="poke_index">h</span>  -->
+            <hr color="blue" size="10%" width="100%">
+            <img alt="" class="photo" id="image">
+        </div>
+    </center>
 </body>
 
 <script src="script.js"></script>
